@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap" rel="stylesheet">
+<title>  contact me </title>
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+    body{
+         background-image: url(assets/pattern.jpg);
+    }
+    body .title{
+        font-size: 70px;
+    }
+    .title{
+        text-align: center;
+        margin-top: 80px;
+        font-family: 'Dongle', sans-serif;
+        font-size: 20;
+    }
+    .subject{
+         width: 100% ;
+         border-radius: 5px;
+         border: 0px solid none;
+         height: 30px;
+         
+    }
+    .formulir{
+       
+        margin: 40px auto;
+        border: 1px solid none;
+        width: 300px;
+        padding: 10px 15px;
+        border-radius: 10px;
+        align-items: center;
+        background-color: #0096c7;
+        box-shadow: 2px 0px 20px rgba(0, 0, 0, 0.4);
+        
+    }
+    
+    input{
+        width: 100%;
+        border-radius: 5px;
+        box-sizing: border-box;
+        /* margin-top: 1px; */
+        border: none;
+        /* padding: 0px 5px; */
+        height: 30px;
+    }
+    .comment{
+        border-radius: 7px;
+        resize: none;
+        width: 100%;
+        box-sizing: border-box;
+        height: 70px;
+          
+    }
+    button {
+        padding: 2px 5px;
+        background-color: orange;
+        border-radius: 7px;
+        width: 100px;
+        border: none;
+        box-shadow: 2px 0px 20px rgba(0, 0, 0, 0.4);
+        font-size: 17px;
+        align-items: center;
+        margin: 10px 90px;
+        font-family: 'Dongle', sans-serif;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    
+    .option{
+         width: 100% ;
+         border-radius: 5px;
+         border: 1px solid none;
+         height: 30px;
+    }
+
+    label{
+        font-family: 'Dongle', sans-serif;
+        font-size: xx-large;
+    }
+    
+    /* navbar */
+
+
+    nav div.left-side{
+    justify-content: left;
+    padding-left: 30px;
+
+}
+    nav div.left-side a{
+    text-decoration: none;
+    color:black;
+    font-family: 'Outfit', sans-serif;
+
+}
+    nav div.right-side{
+    justify-content: end;
+   
+}
+    nav{
+    display: flex;
+    background-color: #f1faee;
+    height: 7vh;
+}
+
+    nav div{
+    display: flex;
+    align-items: center;
+    flex: 50%;
+}
+
+    nav div.right-side a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: 30px;
+    border: 1px solid none;
+    border-radius: 9px;
+    padding: 4px 13px;
+    background-color: #e63946;
+    box-shadow: 0px 3px 7px rgba (0, 0, 0, 0.7);
+    font-family: 'Outfit', sans-serif;
+
+
+}
+nav .navbar{
+    list-style-type: none;
+}
+nav ol li {
+    display: inline;
+    padding-left: 30px;
+
+}
+nav img.logo {
+   margin-left: 30px;
+    padding-top: 6px;
+    width: 40px;
+}
+
+
+nav ol li a:hover {
+    color: orange;
+    transition: 0.5s;
+
+}
+
+nav div.right-side a:hover {
+    background-color: orange;    
+    transition: 0.5s;
+}
+
+button:hover {
+
+    background-color:rgb(187, 126, 12);
+    transition: 0.2s;
+
+}
+    
+</style>
+</head>
+    <body>
+
+        <nav>
+            <a href="index.html">
+                <img class="logo" src="assets/mylogo.png"></a>
+            <div class="left-side">
+                <ol class="navbar">
+                    <li>
+                        <a href="" target="">Home</a>
+                    </li>
+                    <li>
+                        <a href="index.html" target=""> About</a>
+                    </li>
+                </ol>
+    
+            </div>
+
+         
+            <div class="right-side">
+
+                <a href="contact.html"> Contact us</a>
+
+
+            </div>
+         </nav>   
+        <p class="title"> Please comment here!!
+            
+        </p>
+        <div class="formulir">
+
+            <form class="main" action="">
+                <div style="padding-top: 4px;">
+                    <label for="name">Name</label>
+                    <input id="name" type="text" placeholder=" Text your name" />
+                    </div>
+                    <div style="padding-top: 0px;">
+                    <label for="telephone"> Telephone no.</label>
+                    <input id="telephone" type="tel" placeholder=" Text your number"/>
+                        
+                </div>
+    
+                    <div style="padding-top: 0px;">
+                        
+                        <label for="email">Email</label>
+                        <input id="email" type="email" required placeholder=" text your email"/>
+
+                    </div>
+    
+                <div style="padding-top: 0px;">
+                    
+                        <label for="subject">Subject  </label>
+                    <select id="subject" class="subject">
+                        <option value="Asking">I want to ask a question</option>
+                        <option value="problem">I want to recommend  </option>
+                    </select>
+
+                </div>
+
+                <div style="padding-top: 40px;">
+                    <textarea name="" id="comment" class="comment" placeholder="Please comment here"></textarea> 
+                </div>
+                <a href="mailto:"></a>
+                <button type="button" onclick="showData()"> submit 
+                </button>
+                </div>
+                   
+        </form>
+        <script src="form.js"></script>
+    </body>
+
+
+</html>
