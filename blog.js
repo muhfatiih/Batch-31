@@ -71,7 +71,7 @@ function renderBlog() {
             </h1>
            
             <div class="duration">
-             Duration : ${getDayDifference(blogs[i].startdate, blogs[i].enddate)} 
+             Durasi : ${getDayDifference(blogs[i].startdate, blogs[i].enddate)} 
             </div>
             <p>
                 ${blogs[i].content}
@@ -80,7 +80,7 @@ function renderBlog() {
             <div class="OSicon">
             `+ getLogo +`
            </div>
-           
+
             <div class="btn-group">
                 <button class="btn-edit">Edit Post</button>
                 <button class="btn-post">Post Blog</button>
@@ -168,7 +168,7 @@ function firstContent() {
     return`
     <div class="blog-list-item">
     <div class="blog-image">
-      <img src="assets/blog-img.png" alt="" />
+      <img src="assets/surface-rkr_jnaGzIk-unsplash.jpg" alt="" />
     </div>
     <div class="blog-content">
       
@@ -189,6 +189,13 @@ function firstContent() {
         numquam! Deleniti maiores expedita eaque deserunt quaerat! Dicta,
         eligendi debitis?
       </p>
+      <div class="OSicon">
+              <img src="assets/android.png"/>
+              <img src="assets/linux.png"/>
+              <img src="assets/window.png"/>
+              <img src="assets/ios.png"/>
+            </div>
+            
       <div class="btn-group">
         <button class="btn-edit">Edit Post</button>
         <button class="btn-post">Post Blog</button>

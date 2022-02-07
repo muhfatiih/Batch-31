@@ -400,7 +400,7 @@ justify-content: space-evenly;
   
   .blog .blog-list .blog-list-item {
     width: 300px;
-    height: 50%;
+    /* height: 50%; */
     padding: 15px;
     margin-bottom: 20px;
     border: 2px solid none;
@@ -409,6 +409,13 @@ justify-content: space-evenly;
     flex-direction: column;
     margin-right: 20px;
     background-color: #f1faee;
+    box-shadow: 2px 0px 20px rgba(0, 0, 0, 0.4)
+  }
+
+  .duration {
+    font-family: 'Manrope', sans-serif;
+    font-size: 13px;
+    opacity: 0.6;
   }
   
   .blog .blog-list .blog-list-item .blog-image {
@@ -416,7 +423,7 @@ justify-content: space-evenly;
   }
   
   .blog .blog-list .blog-list-item .blog-image img {
-    width: 100%;
+    width: 100% ;
     height: 180px;
     object-fit:contain;
     border-radius: 10px;
@@ -441,6 +448,7 @@ justify-content: space-evenly;
     border-radius: 4px;
     background: #dbdbdb;
     width: 50%;
+    font-family: 'Outfit', sans-serif;
   }
   
   .blog .blog-list .btn-group .btn-post {
@@ -450,6 +458,7 @@ justify-content: space-evenly;
     background: #ec4d37;
     color: #fff;
     width: 50%;
+    font-family: 'Outfit', sans-serif;
   }
   
   .blog .blog-list h1 a {
@@ -460,6 +469,7 @@ justify-content: space-evenly;
 
   .blog .blog-list h1 {
     margin-bottom: 7px;
+    font-family: 'Fjalla One', sans-serif; 
   }
   
   .blog .blog-list .detail-blog-content {
@@ -480,6 +490,7 @@ justify-content: space-evenly;
     -webkit-line-clamp: 3;
             line-clamp: 3;
     -webkit-box-orient: vertical;
+    font-family: 'Manrope', sans-serif;
 
   }
   
@@ -501,13 +512,19 @@ justify-content: space-evenly;
   .OSicon img {
     width: 27px;
     margin: 0px 5px;
+    margin-bottom: 10px ;
   }
 
   .OSicon {
     padding: 3px;
   }
+
+  span {
+    padding-bottom: 10px;
+  }
   
   /* Blog Detail */
+  
   .blog-detail {
     display: flex;
     justify-content:left;
@@ -525,7 +542,7 @@ justify-content: space-evenly;
   }
   
   .blog-detail-container img {
-    width: 100%;
+    width: 50%;
   }
   
   .blog-detail-container h1 {
@@ -534,11 +551,12 @@ justify-content: space-evenly;
     font-size: 44px;
     line-height: 120%;
     margin-bottom: 15px;
-    font-family: 'Fjalla One', sans-serif;  }
+    font-family: 'Manrope', sans-serif;
+   }
   
   .blog-detail-container .author {
     font-weight: 100;
-    font-size: 20px;
+    font-size: 14px;
     line-height: 120%;
     margin-bottom: 20px;
     font-family: 'Fjalla One', sans-serif;
@@ -548,9 +566,10 @@ justify-content: space-evenly;
     margin-top: 40px;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 15px;
     line-height: 140%;
     text-align: justify;
-    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    
   }
   
